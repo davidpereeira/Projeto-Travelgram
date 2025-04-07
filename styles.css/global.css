@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 :root {
@@ -12,9 +12,16 @@
   --shape-transparency: #FFFFFF8F;
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
+
+  --font-family: "Poppins", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/150% var(--font-family); /* 16px/1.5 = 16px/24px = 16px/150%*/
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
 }
 
 body {
+  font: var(--text-lg);
   color: var(--text-color-secondary);
-  background-color: var(--background-color);  
+  background-color: var(--background-color);
 }
