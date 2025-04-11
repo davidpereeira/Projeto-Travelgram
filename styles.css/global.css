@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 :root {
@@ -21,7 +21,7 @@
 }
 
 body {
-  font: var(--text-lg);
+  font: var(--text-sm);
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
